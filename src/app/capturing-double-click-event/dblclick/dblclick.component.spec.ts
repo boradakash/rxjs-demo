@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { FirstComponentComponent } from './first-component.component';
+import { DblclickComponent } from './dblclick.component';
 
-describe('FirstComponentComponent', () => {
-  let component: FirstComponentComponent;
-  let fixture: ComponentFixture<FirstComponentComponent>;
+describe('DblclickComponent', () => {
+  let component: DblclickComponent;
+  let fixture: ComponentFixture<DblclickComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ FirstComponentComponent ]
+      declarations: [ DblclickComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(FirstComponentComponent);
+    fixture = TestBed.createComponent(DblclickComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

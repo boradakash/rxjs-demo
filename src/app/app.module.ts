@@ -2,15 +2,11 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { FirstComponentComponent } from './first-component/first-component.component';
-import { SecondComponentComponent } from './module1/second-component/second-component.component';
-import { ThirdComponentComponent } from './main-module/sub-module/third-component/third-component.component';
+import { DblclickComponent } from './capturing-double-click-event/dblclick/dblclick.component';
 @NgModule({
   declarations: [
     AppComponent,
-    FirstComponentComponent,
-    SecondComponentComponent,
-    ThirdComponentComponent
+    DblclickComponent
   ],
   imports: [
     BrowserModule
